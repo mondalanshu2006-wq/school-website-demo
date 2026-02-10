@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SXI | The Future of Bengal</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.29/dist/lenis.min.js"></script>
+    
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="loader">
+        <div class="loader-content">
+            <h1 class="counter">0</h1>
+            <p>INITIALIZING SYSTEM...</p>
+        </div>
+    </div>
+
+    <div id="canvas-container"></div>
+
+    <div class="main-wrapper">
+        
+        <nav class="glass-nav">
+            <div class="logo">
+                <i class="ri-global-line"></i> SXI.
+            </div>
+            <div class="nav-items">
+                <a href="#">ACADEMICS</a>
+                <a href="#">RESULTS</a>
+                <a href="#" class="btn-primary">ADMISSION 2026</a>
+            </div>
+        </nav>
+
+        <header class="hero">
+            <div class="hero-text">
+                <div class="badge">WBCHSE CODE: 1024</div>
+                <h1 class="reveal-text">EDUCATION <br> <span class="gradient-text">EVOLVED</span></h1>
+                <p>We don't just teach the syllabus. We engineer the minds that will build the future. Welcome to West Bengal's most advanced campus.</p>
+                <div class="btn-group">
+                    <button class="glow-btn">Apply Now <i class="ri-arrow-right-line"></i></button>
+                    <button class="outline-btn">Watch Video</button>
+                </div>
+            </div>
+
+            <div class="hero-card glass-panel tilt-card">
+                <div class="card-header">
+                    <div class="live-indicator"><span class="blink"></span> LIVE</div>
+                    <span>BOARD TOPPERS</span>
+                </div>
+                <div class="stat-big">99.2%</div>
+                <div class="stat-desc">Highest Score in H.S. 2025</div>
+                <div class="avatars">
+                    <div class="avatar" style="background-image: url('https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80')"></div>
+                    <div class="avatar" style="background-image: url('https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&q=80')"></div>
+                    <span>+120 Others</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="ticker-container">
+            <div class="ticker-label">LATEST UPDATES</div>
+            <div class="ticker-wrapper">
+                <div class="ticker-move">
+                    <span>📢 ADMISSIONS OPEN FOR CLASS XI (SCIENCE/ARTS/COMMERCE)</span>
+                    <span class="sep">///</span>
+                    <span>🏆 SCHOOL FOOTBALL TEAM WINS STATE FINALS</span>
+                    <span class="sep">///</span>
+                    <span>📅 MADHYAMIK ADMIT CARDS AVAILABLE AT OFFICE</span>
+                    <span class="sep">///</span>
+                    <span>⚠️ PARENT-TEACHER MEETING ON DEC 20TH</span>
+                    <span class="sep">///</span>
+                    <span>📢 ADMISSIONS OPEN FOR CLASS XI (SCIENCE/ARTS/COMMERCE)</span>
+                    <span class="sep">///</span>
+                    <span>🏆 SCHOOL FOOTBALL TEAM WINS STATE FINALS</span>
+                </div>
+            </div>
+        </div>
+
+        <section class="streams">
+            <div class="section-title">
+                <h2>CHOOSE YOUR <span class="gradient-text">PATH</span></h2>
+                <p>Curriculum designed for WBBSE (Class V-X) and WBCHSE (XI-XII)</p>
+            </div>
+
+            <div class="bento-grid">
+                <div class="bento-box large glass-panel tilt-card">
+                    <i class="ri-atom-line bg-icon"></i>
+                    <div class="content">
+                        <h3>SCIENCE</h3>
+                        <p>Physics, Chemistry, Maths, Biology. Integrated JEE/NEET Coaching.</p>
+                        <div class="tags">
+                            <span>ROBOTICS LAB</span><span>AI CODING</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bento-box glass-panel tilt-card">
+                    <i class="ri-bar-chart-box-line bg-icon"></i>
+                    <div class="content">
+                        <h3>COMMERCE</h3>
+                        <p>Accountancy, Business Studies & Economics.</p>
+                    </div>
+                </div>
+
+                <div class="bento-box glass-panel tilt-card">
+                    <i class="ri-quill-pen-line bg-icon"></i>
+                    <div class="content">
+                        <h3>HUMANITIES</h3>
+                        <p>Pol. Science, History, Geo & Sociology.</p>
+                    </div>
+                </div>
+
+                 <div class="bento-box wide glass-panel tilt-card">
+                    <i class="ri-trophy-line bg-icon"></i>
+                    <div class="content">
+                        <h3>BEYOND BOOKS</h3>
+                        <p>State-level Cricket, Football, and Swimming infrastructure.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="glass-footer">
+            <p>© 2026 St. Xavier's International | Designed for Excellence</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
